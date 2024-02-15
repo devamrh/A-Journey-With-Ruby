@@ -80,6 +80,7 @@ end
 person['City']='Dhaka'
 puts person       # Output: {"Name"=>"Rafi", "Age"=>22, "Country"=>"Bangladesh", "City"=>"Dhaka"}
 
+person['hobbies[3]'] = "boxing"   # Add new hobby to the list
 #To delete a key-value pair from hash you can use delete method.
 person.delete('Country')
 puts person        # Output: {"Name"=>"Rafi", "Age"=>22, "City"=>"Dhaka"}
